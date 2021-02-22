@@ -1,7 +1,6 @@
-# Stream images
+# Stream Images
 
-Built in December 2018.
-React + Node.js project to stream base64 frames into the client and create a video stream.
+Built in December 2018. React.js + Node.js project to stream base64 frames into the client and create a video stream.
 
 ## Getting Started
 
@@ -25,10 +24,14 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## Authors
+## Author
 
 * **Or Assayag** - *Initial work* - [orassayag](https://github.com/orassayag)
+* Or Assayag <orassayag@gmail.com>
+* GitHub: https://github.com/orassayag
+* StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+* LinkedIn: https://il.linkedin.com/in/orassayag
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This application has UNLICENSED License.
