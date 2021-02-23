@@ -1,6 +1,6 @@
 # Stream Images
 
-Built in December 2018. React.js + Node.js project to stream base64 frames into the client and create a video stream.
+Built in December 2018. A React.js + Node.js project to stream base64 frames into the client and create a video stream.
 
 ## Getting Started
 
