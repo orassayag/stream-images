@@ -8,7 +8,7 @@ Clone the project to your computer.
 
 ### Prerequisites
 
-Run Visual Studio code, npm i for both projects, and npm start to the client, node index.js to the sever. Enjoy the magic :)
+Run Visual Studio code, npm i for both projects, and npm start to the client, node index.js to the server. Enjoy the magic :)
 
 ## Built With
 
@@ -34,4 +34,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has UNLICENSED License.
+This application has an UNLICENSED License.

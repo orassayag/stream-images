@@ -1,8 +1,8 @@
-// basic variables
+// Basic variables.
 const app = require('express')();
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
-const fs = require('fs'); // required for file serving
+const fs = require('fs'); // Required for file serving.
 const moment = require('moment');
 
 const getVideosFromFile = () => {
@@ -13,12 +13,12 @@ http.listen(3000, function () {
     console.log('listening on *:3000');
 });
 
-// location to index.html
+// Location to index.html.
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/index.html');
 });
 
-// trying to serve the image file from the server
+// Trying to serve the image file from the server.
 io.on('connection', (socket) => {
     const videos = getVideosFromFile();
     let i = 0;
@@ -29,10 +29,9 @@ io.on('connection', (socket) => {
     }, 33);
 });
 
-
 /* const zeroPad = (num, places) => {
     var zero = places - num.toString().length + 1;
-    return Array(+(zero > 0 && zero)).join("0") + num;
+    return Array(+(zero > 0 && zero)).join('0') + num;
 }
 
 const convertToBinary64 = (i) => {
@@ -64,7 +63,7 @@ const convertImagesToBinary64 = () => {
 
 convertImagesToBinary64(); */
 
-/* // location to index.html
+/* // Location to index.html.
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/index.html');
 });
@@ -78,11 +77,11 @@ const steamImage = () => {
     });
 };
 
-// only to test chat sample code from sample
+// Only to test chat sample code from sample.
 io.on('connection', function (socket) {
     console.log('a user connected');
 
-    // trying to serve the image file from the server
+    // Trying to serve the image file from the server.
     io.on('connection', function (socket) {
     });
 }); */

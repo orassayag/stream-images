@@ -827,7 +827,6 @@ To customize Bootstrap, create a file called `src/custom.scss` (or similar) and 
 // Override default variables before the import
 $body-bg: #000000;
 
-// Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
 ```
 
