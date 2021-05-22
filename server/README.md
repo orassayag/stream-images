@@ -1,23 +1,22 @@
-# Stream Images
-
-Built in December 2018. A React.js + Node.js project to stream base64 frames into the client and create a video stream.
+# Server
 
 ## Getting Started
 
-Clone the project to your computer.
+Clone the application to your computer.
+Steps to view the solution:
+1. Open server application on IDE (I use VSCode).
+2. In the terminal: npm i.
+3. In the terminal: npm start.
+
+Happy testing! :)
 
 ### Prerequisites
 
 You'll need to install VSCode, Node, and clone the application, and in the terminal run: npm i.
-1. Open VSCode, and in the terminal, on the client, run 'npm start'.
-2. In the server, in the terminal, run 'node index.js'.
-3. Enjoy the magic. :)
 
 ## Built With
 
-* [NODE.js](https://nodejs.org/en/) -The web framework used - Server side.
-* [REACT.js](https://reactjs.org/) -The web framework used - Client side.
-* [GIT](https://git-scm.com/) - Source management.
+* [Node.js](https://nodejs.org/en/) - The web framework used - Server side.
 
 ## Contributing
 
