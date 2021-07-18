@@ -15,9 +15,9 @@ You'll need to install VSCode, Node, and clone the application, and in the termi
 
 ## Built With
 
-* [NODE.js](https://nodejs.org/en/) -The web framework used - Server side.
-* [REACT.js](https://reactjs.org/) -The web framework used - Client side.
-* [GIT](https://git-scm.com/) - Source management.
+* [NODE.js](https://nodejs.org/en) -The web framework used - Server side.
+* [REACT.js](https://reactjs.org) -The web framework used - Client side.
+* [GIT](https://git-scm.com) - Source management.
 
 ## Contributing
 
@@ -25,7 +25,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Author
 
@@ -37,4 +37,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has an UNLICENSED License.
+This application has an UNLICENSED license.
