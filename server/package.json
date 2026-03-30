@@ -1,8 +1,10 @@
 {
-    "name": "server",
+    "name": "stream-images-server",
     "version": "1.0.0",
+    "description": "Node.js server for real-time video streaming via Socket.IO - serves base64-encoded frames to connected clients",
     "private": false,
-    "description": "",
+    "license": "MIT",
+    "author": "Or Assayag <orassayag@gmail.com>",
     "repository": {
         "type": "git",
         "url": "git://github.com/orassayag/stream-images.git"
@@ -11,9 +13,18 @@
     "scripts": {
         "start": "node index.js"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "nodejs",
+        "socket.io",
+        "video-streaming",
+        "real-time",
+        "websocket",
+        "base64",
+        "frames",
+        "image-streaming",
+        "server",
+        "express"
+    ],
     "dependencies": {
         "cors": "^2.8.5",
         "eslint": "^5.1.0",

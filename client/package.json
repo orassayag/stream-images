@@ -1,11 +1,25 @@
 {
-  "name": "client",
+  "name": "stream-images-client",
   "version": "0.1.0",
+  "description": "React.js client for real-time video streaming via Socket.IO - receives and displays base64-encoded frames from the server",
   "private": false,
+  "license": "MIT",
+  "author": "Or Assayag <orassayag@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/stream-images.git"
   },
+  "keywords": [
+    "react",
+    "socket.io",
+    "video-streaming",
+    "real-time",
+    "websocket",
+    "base64",
+    "frames",
+    "image-streaming",
+    "client"
+  ],
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",

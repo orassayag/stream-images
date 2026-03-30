@@ -1,0 +1,33 @@
+{
+  "name": "stream-images",
+  "version": "1.0.0",
+  "description": "Real-time video streaming application using React.js and Node.js with Socket.IO - streams base64-encoded frames from server to client",
+  "private": false,
+  "license": "MIT",
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/stream-images.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "socket.io",
+    "video-streaming",
+    "real-time",
+    "websocket",
+    "base64",
+    "frames",
+    "image-streaming"
+  ],
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "build:client": "cd client && npm run build"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  }
+}
