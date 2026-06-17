@@ -1,38 +1,79 @@
 {
-    "name": "stream-images-server",
-    "version": "1.0.0",
-    "description": "Node.js server for real-time video streaming via Socket.IO - serves base64-encoded frames to connected clients",
-    "private": false,
-    "license": "MIT",
-    "author": "Or Assayag <orassayag@gmail.com>",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/orassayag/stream-images.git"
-    },
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "keywords": [
-        "nodejs",
-        "socket.io",
-        "video-streaming",
-        "real-time",
-        "websocket",
-        "base64",
-        "frames",
-        "image-streaming",
-        "server",
-        "express"
-    ],
-    "dependencies": {
-        "cors": "^2.8.5",
-        "eslint": "^5.1.0",
-        "express": "^4.16.3",
-        "express-async-errors": "^3.0.0",
-        "moment": "^2.23.0",
-        "node-cache": "^4.2.0",
-        "socket.io": "^2.1.1",
-        "winston": "^2.4.0"
+  "name": "stream-images-server",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A real-time video streaming app built with Node.js, React.js, and Socket.IO. The server streams base64-encoded image frames over WebSockets, while the client renders them in the browser, demonstrating real-time communication, frame synchronization, video playback without traditional media formats",
+  "keywords": [
+    "socketio",
+    "nodejs",
+    "express",
+    "websockets",
+    "realtime",
+    "streaming",
+    "video-streaming",
+    "image-streaming",
+    "base64",
+    "reactjs",
+    "javascript",
+    "frontend",
+    "backend",
+    "client-server",
+    "event-driven",
+    "frame-streaming",
+    "browser-rendering",
+    "media-streaming",
+    "real-time-communication",
+    "web-application"
+  ],
+  "homepage": "https://github.com/orassayag/stream-images#readme",
+  "bugs": {
+    "url": "https://github.com/orassayag/stream-images/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/stream-images.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/orassayag"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
+  "contributors": [
+    {
+      "name": "Or Assayag",
+      "email": "orassayag@gmail.com",
+      "url": "https://github.com/orassayag"
     }
+  ],
+  "type": "commonjs",
+  "main": "index.js",
+  "files": [
+    ".vscode",
+    "images",
+    ".eslintrc.js",
+    ".gitignore",
+    ".prettierrc",
+    "index.js",
+    "knip.json",
+    "package-lock.json",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^5.1.0",
+    "express": "^4.16.3",
+    "express-async-errors": "^3.0.0",
+    "moment": "^2.23.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {}
 }

@@ -22,11 +22,13 @@ React.js client application for real-time video streaming. Connects to the Node.
 ### Installation
 
 1. Navigate to the client directory:
+
 ```bash
 cd client
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -34,6 +36,7 @@ npm install
 ### Running the Client
 
 Start the development server:
+
 ```bash
 npm start
 ```
@@ -43,6 +46,7 @@ The application will open automatically in your default browser at `http://local
 ### Building for Production
 
 Create an optimized production build:
+
 ```bash
 npm run build
 ```
@@ -54,6 +58,7 @@ The build files will be created in the `build/` directory.
 Edit the settings files in `src/settings/`:
 
 **Development** (`settings.development.json`):
+
 ```json
 {
   "api_base_url": "http://localhost:3000"
@@ -61,6 +66,7 @@ Edit the settings files in `src/settings/`:
 ```
 
 **Production** (`settings.production.json`):
+
 ```json
 {
   "api_base_url": "http://your-production-server.com"
@@ -113,11 +119,11 @@ client/
 
 ## Author
 
-* **Or Assayag** - *Initial work* - [orassayag](https://github.com/orassayag)
-* Or Assayag <orassayag@gmail.com>
-* GitHub: https://github.com/orassayag
-* StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://linkedin.com/in/orassayag
+- **Or Assayag** - _Initial work_ - [orassayag](https://github.com/orassayag)
+- Or Assayag <orassayag@gmail.com>
+- GitHub: https://github.com/orassayag
+- StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+- LinkedIn: https://linkedin.com/in/orassayag
 
 ## License
 

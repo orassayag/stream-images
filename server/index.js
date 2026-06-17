@@ -6,27 +6,30 @@ const fs = require('fs'); // Required for file serving.
 const moment = require('moment');
 
 const getVideosFromFile = () => {
-    return fs.readFileSync(__dirname + '\\video.txt').toString().split('#');
+  return fs
+    .readFileSync(__dirname + '\\video.txt')
+    .toString()
+    .split('#');
 };
 
 http.listen(3000, function () {
-    console.log('listening on *:3000');
+  console.log('listening on *:3000');
 });
 
 // Location to index.html.
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 // Trying to serve the image file from the server.
 io.on('connection', (socket) => {
-    const videos = getVideosFromFile();
-    let i = 0;
-    setInterval(() => {
-        socket.emit('image', { image: true, buffer: videos[i] });
-        console.log(`image ${moment().format('x')}`);
-        i++;
-    }, 33);
+  const videos = getVideosFromFile();
+  let i = 0;
+  setInterval(() => {
+    socket.emit('image', { image: true, buffer: videos[i] });
+    console.log(`image ${moment().format('x')}`);
+    i++;
+  }, 33);
 });
 
 /* const zeroPad = (num, places) => {
